@@ -37,7 +37,8 @@ from sam2.build_sam import build_sam2
 from sam2.sam2_image_predictor import SAM2ImagePredictor
 from sam2.automatic_mask_generator import SAM2AutomaticMaskGenerator
 
-SAM2_CKPT =  '/home/franka/ACReKep/model_ckpt/sam2_hiera_small.pt'
+# SAM2_CKPT =  '/home/franka/ACReKep/model_ckpt/sam2_hiera_small.pt'
+SAM2_CKPT = '/home/Downloads/sam2.1_hiera_tiny.pt'
 SMA2_CFIG = "./configs/sam2/sam2_hiera_s.yaml"
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
