@@ -1,7 +1,6 @@
 01181135
-<<<<<<< HEAD
 git remote add origin1 git@39.108.137.45:/home/git/ReKepUR5/ReKepUR5.git
-=======
 
 test dev2 branch
->>>>>>> b13f052 (add something in test.txt from dev2 branch)
+
+test push
